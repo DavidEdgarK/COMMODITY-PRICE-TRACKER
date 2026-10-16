@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """
 This module identifies relevant tables for data extraction.
 """
@@ -11,3 +12,18 @@ def locate_pages(file_path, keyword):
 def validate_table_structure(table):
     """Check if table has expected columns"""
 
+=======
+"""
+This module identifies relevant tables for data extraction.
+"""
+
+def find_keywords(text, keywords):
+    """detect key words"""
+
+def locate_pages(file_path, keyword):
+    """return page numbers with relevant content"""
+
+def validate_table_structure(table):
+    """Check if table has expected columns"""
+
+>>>>>>> 5acc29a913c8909812a39e8e35b9a5cf4bfb97f9
